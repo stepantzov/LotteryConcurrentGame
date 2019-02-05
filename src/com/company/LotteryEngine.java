@@ -49,7 +49,7 @@ public class LotteryEngine extends Thread {
         return lotteryWinnerName;
     }
 
-    public static List<String> getCurrentLotteryPlayersList(){
+    public static List<String> getCurrentLotteryPlayersList() {
         return names;
     }
 }
