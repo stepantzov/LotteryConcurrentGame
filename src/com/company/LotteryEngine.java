@@ -22,8 +22,8 @@ public class LotteryEngine extends Thread {
     public void run() {
         while (true) {
             System.out.println();
-            System.out.println("$$$ We've got new Lottery winner!!! $$$");
-            System.out.println("Please log with proper user name to check the results.");
+            System.out.println("$$$ We've got Lottery winner!!! $$$");
+            System.out.println();
             setLotteryRandomWinnerName();
             try {
                 Thread.sleep(30000);
